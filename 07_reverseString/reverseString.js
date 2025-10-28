@@ -2,10 +2,10 @@ const reverseString = function (word) {
     const wordArr = [...word];
     let reversed = [];
 
-    for (let i = wordArr.length; i >= 0; i--){
+    for (let i = wordArr.length; i >= 0; i--) {
         reversed += [wordArr[i]];
     }
-    
+
     return reversed;
 };
 
